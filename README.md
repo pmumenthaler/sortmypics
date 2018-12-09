@@ -12,7 +12,7 @@ Beispiel: `python sortmypics.py -d '/home/user/Downloads/CameraUploads/' -p '/ho
 Bilder oder auch andere Dokumente, welche keine ExIf Metadaten haben, werden in den Zielverzeichnis `/sortyourself/` abgelegt.
 
 # Know bugs/Features:
-* Leerzeichen in Verzeichnissen oder Dateinamen sind zur Zeit noch nicht zugelassen. Als Workaround hilft: ls -1 | while read i; do mv "$i" "`echo $i | tr -d " "`"; done
+* Leerzeichen in Verzeichnissen oder Dateinamen sind zur Zeit noch nicht zugelassen. Als Workaround hilft: `ls -1 | while read i; do mv "$i" "`echo $i | tr -d " "`"; done`
 * Header in den Dateien
 * Beschreibung übersetzten
 * GUI für die Applikation
